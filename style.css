@@ -1,0 +1,113 @@
+html,
+body {
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+}
+
+.header {
+    text-align: center;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+.topNav {
+    position: relative;
+    overflow: hidden;
+}
+
+.topNav a {
+    float: left;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.topNav-centered {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.topNav-active a:hover {
+    color: green;
+    letter-spacing: 1px;
+}
+
+.topNav-right {
+    float: right;
+    letter-spacing: 2px;
+}
+
+.topNav-right a:hover {
+    color: green;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 800px) {
+    .topNav a, .topNav-right {
+        float: none;
+        display: block;
+    }
+    
+    .topNav-centered a {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
+}
+
+.container-fluid {
+    padding: 1px;
+    color: #fff;
+}
+
+.container-fluid h1 {
+    float: right;
+    font-size: 3rem;
+}
+
+.container-fluid .row {
+    padding: 50px;
+}
+
+.container-fluid .img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 71%;
+    margin-left: 24%;
+}
+
+
+/* Footer */
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.footer .item-social a {
+    color: #fff;
+    padding-inline: 7px;
+}
+
+.footer .item-social a:hover {
+    color: green
+}
+
+.footer .footer-copyright a {
+    color: #fff;
+    font-size: 17px;
+}
+
+.footer .footer-copyright a:hover {
+    color: green;
+}
