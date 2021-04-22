@@ -22,7 +22,7 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 14px;
+    font-size: large;
     letter-spacing: 2px;
 }
 
@@ -79,10 +79,10 @@ body {
 
 .container-fluid .img {
     display: block;
-    margin-left: auto;
     margin-right: auto;
     width: 71%;
     margin-left: 24%;
+    padding-top: 20px;
 }
 
 
