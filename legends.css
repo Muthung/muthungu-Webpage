@@ -8,26 +8,26 @@ body {
   overflow: hidden;
   background-color: rgb(49, 10, 10);
   padding: 20px 10px;
+  display: block;
+  box-shadow: 2px 4px 10px rgb(0, 146, 139), 2px 4px 10px rgb(0, 146, 139);
 }
 
 .header a {
   float: left;
-  color: rgb(70, 27, 110);
+  color: #fff;
   text-align: center;
+  text-shadow: 2px 4px 10px green, 2px 4px 10px green, 2px 4px 10px green;
   padding: 14px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 21px;
   line-height: 25px;
   border-radius: 7px;
 }
 
-.header a.logo {
-  font-size: 21px;
-  font-weight: bold;
+.header .logo {
+  font-size: 32px;
 }
-
 .header-right a:hover {
-  background-color: rgb(88, 31, 105);
   color: green;
   letter-spacing: 2px;
 }
@@ -49,3 +49,47 @@ body {
   }
 
 }
+
+.wrapper {
+  width: 27%;
+  margin-top: 21px;
+  margin-left: 7px;
+  padding-left: 14px;
+  display: inline-block;
+}
+
+.wrapper .card {
+  display: block;
+  padding: 4px;
+  border: 7px;
+}
+
+.wrapper .card img {
+  position: relative;
+  border-radius: 7px;
+  width: 100%;
+}
+
+.wrapper .card .description {
+  background-color: rgb(170, 170, 170);
+  display: block;
+  padding: 13px;
+}
+
+.wrapper .card .description h1 {
+  font-weight: 900;
+  font-size: 2.5rem;
+  color: #fff;
+  text-shadow: 2px 4px 10px green, 2px 4px 10px green, 2px 4px 10px green;
+}
+
+.wrapper .card .description p {
+  color: rgb(49, 10, 10);
+}
+
+.wrapper .card .description button {
+  border-radius: 14px;
+  background: 2px 4px 10px green, 2px 4px 10px green, 2px 4px 10px green;;
+  padding: 7px;
+}
+
