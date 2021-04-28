@@ -29,6 +29,9 @@ body {
 .topNav-centered {
     float: none;
     position: absolute;
+    font-family: 'Oi', cursive;
+    font-size: 32px;
+    text-shadow: 0 2px 4px rgb(66, 2, 2);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -72,6 +75,7 @@ body {
 .container-fluid h1 {
     float: right;
     font-size: 3rem;
+    font-family: 'Black Ops One', cursive;
 }
 
 .container-fluid .row {
@@ -86,6 +90,10 @@ body {
     padding-top: 20px;
 }
 
+.container-fluid p {
+    font-family: 'Black Ops One', cursive;
+    font-size: 18px;
+}
 
 /* Footer */
 .footer {
@@ -101,7 +109,9 @@ body {
 }
 
 .footer .item-social a:hover {
-    color: green
+    color: green;
+    font-size: 24px;
+    transition: .3s ease-out;
 }
 
 .footer .footer-copyright a {
