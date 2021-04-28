@@ -1,13 +1,179 @@
 body  {
-  background-color: rgb(19, 24, 56);
+  background-color: rgb(2, 31, 44);
   margin: 14px;
 
 }
 
 .header {
  width: 100%;
+ border: 1px solid rgb(0, 128, 0);
+ border-radius: 4px;
+ padding-left: 7px;
 }
 
-.header .links i {
-  float: right;
+.bottom-right {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.font-effect-3d {
+  display: inline-block;
+  padding-left: 10px;
+  text-decoration: overline;
+}
+
+.birds-list {
+  margin-top: 45px;
+  background: #262626;
+}
+
+button {
+  border-radius: 7px;
+  background: rgb(17, 20, 36);
+  border: none;
+}
+ul {
+  margin-top: 2px;
+  display: flex;
+  position: absolute;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
+ul li {
+  list-style: none;
+  margin: 0 14px;
+}
+
+ul li button {
+  position: relative;
+  padding-top: 5px;
+  display: block;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 63px;
+  background: rgb(17, 20, 36);
+  box-shadow: lightblue;
+  border-radius: 35%;
+  font-size: 20px;
+  color: #333;
+  transition: .5s;
+}
+
+ul li button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 35%;
+  background: rgb(0, 128, 0);
+  transition: .5s;
+  transform: scale(.9);
+  z-index: -1;
+}
+
+ul li button:hover::before {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgb(0, 128, 0);
+}
+
+ul li button:hover {
+  color: rgb(0, 128, 0);
+  box-shadow: 0 0 5px rgb(0, 128, 0);
+  text-shadow: 0 0 5px rgb(0, 128, 0);
+}
+
+.wrapper {
+  width: 100;
+  margin: 18px;
+}
+ /* Humming Bird Styles */
+.wrapper #slideshow .bird-details h1 {
+  font-family: 'Sonsie One', cursive;
+  color: #fff;
+  text-shadow: 0 2px 4px rgb(163, 163, 163);
+}
+
+.wrapper #slideshow .bird-details p {
+  font-family: 'Original Surfer', cursive;
+  color: #fff;
+}
+
+.wrapper #slideshow .bird-details p span {
+  color: rgb(4, 168, 209);
+  font-size: 21px;
+}
+
+ /* Mocking Bird Styles */
+.wrapper #slideshow2 .bird-details h1 {
+  font-family: 'Sonsie One', cursive;
+  color: #fff;
+  text-shadow: 0 2px 4px rgb(163, 163, 163);
+}
+
+.wrapper #slideshow2 .bird-details p {
+  font-family: 'Original Surfer', cursive;
+  color: #fff;
+}
+
+.wrapper #slideshow2 .bird-details p span {
+  color: rgb(4, 168, 209);
+  font-size: 21px;
+}
+
+ /* Crow Styles */
+.wrapper #slideshow3 .bird-details h1 {
+  font-family: 'Sonsie One', cursive;
+  color: #fff;
+  text-shadow: 0 2px 4px rgb(163, 163, 163);
+}
+
+.wrapper #slideshow3 .bird-details p {
+  font-family: 'Original Surfer', cursive;
+  color: #fff;
+}
+
+.wrapper #slideshow3 .bird-details p span {
+  color: rgb(4, 168, 209);
+  font-size: 21px;
+}
+
+ /* Eagle Styles */
+.wrapper #slideshow4 .bird-details h1 {
+  font-family: 'Sonsie One', cursive;
+  color: #fff;
+  text-shadow: 0 2px 4px rgb(163, 163, 163);
+}
+
+.wrapper #slideshow4 .bird-details p {
+  font-family: 'Original Surfer', cursive;
+  color: #fff;
+}
+
+.wrapper #slideshow4 .bird-details p span {
+  color: rgb(4, 168, 209);
+  font-size: 21px;
+}
+
+ /* Vulture Styles */
+.wrapper #slideshow5 .bird-details h1 {
+  font-family: 'Sonsie One', cursive;
+  color: #fff;
+  text-shadow: 0 2px 4px rgb(163, 163, 163);
+}
+
+.wrapper #slideshow5 .bird-details p {
+  font-family: 'Original Surfer', cursive;
+  color: #fff;
+}
+
+.wrapper #slideshow5 .bird-details p span {
+  color: rgb(4, 168, 209);
+  font-size: 21px;
 }

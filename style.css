@@ -66,6 +66,7 @@ body {
 .container-fluid {
     padding: 1px;
     color: #fff;
+    margin-top: 7px;
 }
 
 .container-fluid h1 {
