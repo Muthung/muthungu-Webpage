@@ -16,11 +16,19 @@
 
     <!-- Google Fonts -->
 
-     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton&effect=3d">
+
+    <link href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap" rel="stylesheet"> 
 
     <!-- MDB -->
 
    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet"/>
+
+    <!-- Local Styles  and Scripts -->
 
     <link rel="stylesheet" href="/birds.css">
 
@@ -32,30 +40,207 @@
 
 <body>
 
-    <!-- Name -->
+    <!-- Head -->
 
     <div class="header">
 
-        <i class="fab fa-earlybirds fa-5x" style="color: rgb(134, 199, 134);"></i>
+        <i class="fab fa-earlybirds fa-5x" style="color: rgb(2, 90, 17);">
+        </i>
 
-        <div class="links">
+            <h1 class="font-effect-3d" style="font-family: 'Monoton';"> Birds View </h1>
 
-            <ul> 
+            <!-- Image Links in the Icons -->
 
-                <li>
+        <div class="birds-list">
 
-                    <a href="/index.html">
-                   
-                        <i class="fas fa-caret-left fa-1x"> Back</i>
+        <ul>
 
-                    </a>
+            <li>
 
-                </li>
+                <button onclick="myGallery()"><i class="fas fa-heading fa-2x"></i></button>
 
-            </ul>
+            </li>
+            <li>
+
+                <button onclick="myGallery2()"><i class="fab fa-medium-m fa-2x"></i></button>
+
+            </li>
+            <li>
+
+                <button onclick="myGallery3()"><i class="fab fa-cuttlefish fa-2x"></i></button>
+                    
+            </li>
+            <li>
+
+                <button onclick="myGallery4()"><i class="fab fa-etsy fa-2x"></i></button>
+                    
+            </li>
+            <li>
+
+                <button onclick="myGallery5()"><i class="fab fa-vimeo-v fa-2x"></i></button>
+                    
+            </li>
+
+        </ul>
 
         </div>
 
+    </div>
+
+    <!-- Body  with Images which are called by Links -->
+
+    <div class="wrapper">
+    
+        <!-- Displayed onclick -->
+
+        <div id="slideshow">
+
+            <div class="bird-details">
+
+                <h1> Humming Bird </h1>
+                <hr>
+
+                <p>
+                * Hummingbirds are birds native to the Americas and constitute the biological family<span>Trochilidae.</span>
+                There are about 360 species. They occur from Alaska to Tierra del Fuego but the vast majority of the species are found in the tropics.
+                They are small birds, most species measuring 7.5–13 cm in length. The smallest extant hummingbird species is the 5 cm bee hummingbird, which weighs less than 2.0 g.
+                The largest hummingbird species is the 23 cm giant hummingbird, weighing 18–24 g. They are specialized for feeding on nectar but all species also consume insects or spiders.
+                Hummingbirds split from their sister group, the swifts and tree swifts, around 42 million years ago. The common ancestor of extant hummingbirds is estimated to have lived 22 million years ago.
+                They are known as hummingbirds because of the <span>humming sound</span>created by their beating wings, which flap at high frequencies audible to humans.
+                They hover in mid-air at rapid wing-flapping rates, which vary from around 12 beats per second in the largest species to in excess of 80 in some of the smallest.
+                Of those species that have been measured in wind tunnels, their<span> top speeds exceed</span> 15 m/s (54 km/h) and some species can dive at speeds in excess of 23 m/s (83 km/h).
+                Most male hummingbirds attract a female with their rather<span> feeble song</span>. In a few species the males perform complex aerial displays.
+                The small neat cup-shaped nest is decorated with moss or lichen and is usually attached with cobwebs to thin branches of a tree or bush but a few species attach their nest beneath a large leaf such as a palm frond.
+                For all species the female alone builds the nest, incubates the clutch of two white eggs and feeds the nestlings.
+                Hummingbirds have the highest mass-specific metabolic rate of any homeothermic animal. 
+                To conserve energy when food is scarce and nightly when not foraging, they can go into torpor, a state similar to hibernation, and slow their metabolic rate to 1/15 of its normal rate.
+                
+            </div>
+
+        </div>
+        <div id="slideshow2" style="display: none;">
+
+            <div class="bird-details">
+
+                <h1> Mocking Bird </h1>
+                <hr>
+
+                <p>
+                * Hummingbirds are birds native to the Americas and constitute the biological family<span>Trochilidae.</span>
+                There are about 360 species. They occur from Alaska to Tierra del Fuego but the vast majority of the species are found in the tropics.
+                They are small birds, most species measuring 7.5–13 cm in length. The smallest extant hummingbird species is the 5 cm bee hummingbird, which weighs less than 2.0 g.
+                The largest hummingbird species is the 23 cm giant hummingbird, weighing 18–24 g. They are specialized for feeding on nectar but all species also consume insects or spiders.
+                Hummingbirds split from their sister group, the swifts and tree swifts, around 42 million years ago. The common ancestor of extant hummingbirds is estimated to have lived 22 million years ago.
+                They are known as hummingbirds because of the <span>humming sound</span>created by their beating wings, which flap at high frequencies audible to humans.
+                They hover in mid-air at rapid wing-flapping rates, which vary from around 12 beats per second in the largest species to in excess of 80 in some of the smallest.
+                Of those species that have been measured in wind tunnels, their<span> top speeds exceed</span> 15 m/s (54 km/h) and some species can dive at speeds in excess of 23 m/s (83 km/h).
+                Most male hummingbirds attract a female with their rather<span> feeble song</span>. In a few species the males perform complex aerial displays.
+                The small neat cup-shaped nest is decorated with moss or lichen and is usually attached with cobwebs to thin branches of a tree or bush but a few species attach their nest beneath a large leaf such as a palm frond.
+                For all species the female alone builds the nest, incubates the clutch of two white eggs and feeds the nestlings.
+                Hummingbirds have the highest mass-specific metabolic rate of any homeothermic animal. 
+                To conserve energy when food is scarce and nightly when not foraging, they can go into torpor, a state similar to hibernation, and slow their metabolic rate to 1/15 of its normal rate.
+                
+            </div>
+
+        </div>
+        <div id="slideshow3" style="display: none;">
+
+            <div class="bird-details">
+
+                <h1> Crow </h1>
+                <hr>
+
+                <p>
+                * Hummingbirds are birds native to the Americas and constitute the biological family<span>Trochilidae.</span>
+                There are about 360 species. They occur from Alaska to Tierra del Fuego but the vast majority of the species are found in the tropics.
+                They are small birds, most species measuring 7.5–13 cm in length. The smallest extant hummingbird species is the 5 cm bee hummingbird, which weighs less than 2.0 g.
+                The largest hummingbird species is the 23 cm giant hummingbird, weighing 18–24 g. They are specialized for feeding on nectar but all species also consume insects or spiders.
+                Hummingbirds split from their sister group, the swifts and tree swifts, around 42 million years ago. The common ancestor of extant hummingbirds is estimated to have lived 22 million years ago.
+                They are known as hummingbirds because of the <span>humming sound</span>created by their beating wings, which flap at high frequencies audible to humans.
+                They hover in mid-air at rapid wing-flapping rates, which vary from around 12 beats per second in the largest species to in excess of 80 in some of the smallest.
+                Of those species that have been measured in wind tunnels, their<span> top speeds exceed</span> 15 m/s (54 km/h) and some species can dive at speeds in excess of 23 m/s (83 km/h).
+                Most male hummingbirds attract a female with their rather<span> feeble song</span>. In a few species the males perform complex aerial displays.
+                The small neat cup-shaped nest is decorated with moss or lichen and is usually attached with cobwebs to thin branches of a tree or bush but a few species attach their nest beneath a large leaf such as a palm frond.
+                For all species the female alone builds the nest, incubates the clutch of two white eggs and feeds the nestlings.
+                Hummingbirds have the highest mass-specific metabolic rate of any homeothermic animal. 
+                To conserve energy when food is scarce and nightly when not foraging, they can go into torpor, a state similar to hibernation, and slow their metabolic rate to 1/15 of its normal rate.
+                
+            </div>
+
+        </div>
+        <div id="slideshow4" style="display: none;">
+
+            <div class="bird-details">
+
+                <h1> The Eagle </h1>
+                <hr>
+
+                <p>
+                * Hummingbirds are birds native to the Americas and constitute the biological family<span>Trochilidae.</span>
+                There are about 360 species. They occur from Alaska to Tierra del Fuego but the vast majority of the species are found in the tropics.
+                They are small birds, most species measuring 7.5–13 cm in length. The smallest extant hummingbird species is the 5 cm bee hummingbird, which weighs less than 2.0 g.
+                The largest hummingbird species is the 23 cm giant hummingbird, weighing 18–24 g. They are specialized for feeding on nectar but all species also consume insects or spiders.
+                Hummingbirds split from their sister group, the swifts and tree swifts, around 42 million years ago. The common ancestor of extant hummingbirds is estimated to have lived 22 million years ago.
+                They are known as hummingbirds because of the <span>humming sound</span>created by their beating wings, which flap at high frequencies audible to humans.
+                They hover in mid-air at rapid wing-flapping rates, which vary from around 12 beats per second in the largest species to in excess of 80 in some of the smallest.
+                Of those species that have been measured in wind tunnels, their<span> top speeds exceed</span> 15 m/s (54 km/h) and some species can dive at speeds in excess of 23 m/s (83 km/h).
+                Most male hummingbirds attract a female with their rather<span> feeble song</span>. In a few species the males perform complex aerial displays.
+                The small neat cup-shaped nest is decorated with moss or lichen and is usually attached with cobwebs to thin branches of a tree or bush but a few species attach their nest beneath a large leaf such as a palm frond.
+                For all species the female alone builds the nest, incubates the clutch of two white eggs and feeds the nestlings.
+                Hummingbirds have the highest mass-specific metabolic rate of any homeothermic animal. 
+                To conserve energy when food is scarce and nightly when not foraging, they can go into torpor, a state similar to hibernation, and slow their metabolic rate to 1/15 of its normal rate.
+                
+            </div>
+
+        </div>
+        <div id="slideshow5" style="display: none;">
+
+            <div class="bird-details">
+
+                <h1> The Vulture </h1>
+                <hr>
+
+                <p>
+                * Hummingbirds are birds native to the Americas and constitute the biological family<span>Trochilidae.</span>
+                There are about 360 species. They occur from Alaska to Tierra del Fuego but the vast majority of the species are found in the tropics.
+                They are small birds, most species measuring 7.5–13 cm in length. The smallest extant hummingbird species is the 5 cm bee hummingbird, which weighs less than 2.0 g.
+                The largest hummingbird species is the 23 cm giant hummingbird, weighing 18–24 g. They are specialized for feeding on nectar but all species also consume insects or spiders.
+                Hummingbirds split from their sister group, the swifts and tree swifts, around 42 million years ago. The common ancestor of extant hummingbirds is estimated to have lived 22 million years ago.
+                They are known as hummingbirds because of the <span>humming sound</span>created by their beating wings, which flap at high frequencies audible to humans.
+                They hover in mid-air at rapid wing-flapping rates, which vary from around 12 beats per second in the largest species to in excess of 80 in some of the smallest.
+                Of those species that have been measured in wind tunnels, their<span> top speeds exceed</span> 15 m/s (54 km/h) and some species can dive at speeds in excess of 23 m/s (83 km/h).
+                Most male hummingbirds attract a female with their rather<span> feeble song</span>. In a few species the males perform complex aerial displays.
+                The small neat cup-shaped nest is decorated with moss or lichen and is usually attached with cobwebs to thin branches of a tree or bush but a few species attach their nest beneath a large leaf such as a palm frond.
+                For all species the female alone builds the nest, incubates the clutch of two white eggs and feeds the nestlings.
+                Hummingbirds have the highest mass-specific metabolic rate of any homeothermic animal. 
+                To conserve energy when food is scarce and nightly when not foraging, they can go into torpor, a state similar to hibernation, and slow their metabolic rate to 1/15 of its normal rate.
+                
+            </div>
+
+        </div>
+
+        <!-- Explanation of the Birds interest -->
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+    <!-- The Back Link -->
+
+    <div class="links">
+
+        <a href="/index.html" class="bottom-right">
+                  
+            <i class="fas fa-caret-left fa-1x"> Back</i>
+
+        </a>
 
     </div>
 
