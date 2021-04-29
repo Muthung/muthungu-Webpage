@@ -177,3 +177,123 @@ ul li button:hover {
   color: rgb(4, 168, 209);
   font-size: 21px;
 }
+
+.wrapper h2 {
+  text-align: center;
+  padding-top: 2%;
+  color: #fff;
+  font-family: 'Sonsie One', cursive;
+}
+
+.container-all {
+  width: 100%;
+  margin: 20px auto;
+  height: auto;
+}
+
+.container {
+  width: 23%;
+  overflow: hidden;
+  margin: 3px;
+  padding: 0;
+  display: inline-block;
+  position: relative;
+  border-radius: 7px;
+}
+
+img {
+  width: 100%;
+  transition-duration: .3s;
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.title {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  top: 35%;
+  padding-bottom: 2px;
+  display: none;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-family: 'Sonsie One', cursive;
+  font-size: 1.6rem;
+  text-shadow: 1px 5px 10px black;
+  transition-duration: .3s;
+}
+
+.text {
+  position: absolute;
+  top: 64%;
+  cursor: pointer;
+  max-width: 80%;
+  text-align: center;
+  left: 50%;
+  text-shadow: 1px 5px 10px black;
+  font-size: 1em;
+  display: none;
+  margin-right: -50%;
+  transition-duration: .3s;
+  transform: translate(-50%, -50%);
+}
+
+.text2 {
+  position: absolute;
+  top: 66%;
+  cursor: pointer;
+  max-width: 80%;
+  text-align: center;
+  left: 50%;
+  text-shadow: 1px 5px 10px black;
+  font-size: 1em;
+  display: none;
+  margin-right: -50%;
+  transition-duration: .3s;
+  transform: translate(-50%, -50%);
+}
+
+.text3 {
+  position: absolute;
+  top: 70%;
+  cursor: pointer;
+  max-width: 80%;
+  text-align: center;
+  left: 50%;
+  text-shadow: 1px 5px 10px black;
+  font-size: 1em;
+  display: none;
+  margin-right: -50%;
+  transition-duration: .3s;
+  transform: translate(-50%, -50%);
+}
+
+.container:hover img {
+  transform: scale(1.2);
+  transition-duration: .3s;
+  filter: grayscale(50%);
+  opacity: .7;
+  height: fit-content;
+}
+
+.container:hover span {
+  color: #fff;
+  display: block;
+  transition-duration: .3s;
+  opacity: .6;
+}
+
+@media only screen and (max-width: 900px) {
+  .container {
+    width: calc(50% - 6px);
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .container {
+    width: 100%;
+  }
+}

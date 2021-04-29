@@ -78,6 +78,9 @@ body {
     font-family: 'Black Ops One', cursive;
 }
 
+.container-fluid h1 em {
+    font-size: medium;
+}
 .container-fluid .row {
     padding: 50px;
 }
