@@ -1,7 +1,6 @@
 body  {
   background-color: rgb(2, 31, 44);
   margin: 14px;
-
 }
 
 .header {
@@ -184,7 +183,7 @@ ul li button:hover {
   color: #fff;
   font-family: 'Sonsie One', cursive;
 }
-
+/* Gallery */
 .container-all {
   width: 100%;
   margin: 20px auto;
@@ -204,14 +203,12 @@ ul li button:hover {
 img {
   width: 100%;
   transition-duration: .3s;
-  display: block;
   overflow: hidden;
   cursor: pointer;
 }
 
 .title {
   position: absolute;
-  display: block;
   cursor: pointer;
   top: 35%;
   padding-bottom: 2px;
