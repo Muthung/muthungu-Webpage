@@ -13,6 +13,7 @@ function myGallery() {
         x.style.display = "none";
     }
 }
+
 function myGallery2() {
     var y = document.getElementById("slideshow");
     var x = document.getElementById("slideshow2");
@@ -28,6 +29,7 @@ function myGallery2() {
         x.style.display = "none";
     }
 }
+
 function myGallery3() {
     var y = document.getElementById("slideshow");
     var w = document.getElementById("slideshow2");
@@ -43,6 +45,7 @@ function myGallery3() {
         x.style.display = "none";
     }
 }
+
 function myGallery4() {
     var x = document.getElementById("slideshow4");
     var y = document.getElementById("slideshow3");
