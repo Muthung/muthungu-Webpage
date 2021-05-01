@@ -49,3 +49,14 @@ h1 {
 .btn:hover {
   background-color: #437224;
 }
+
+.links i {
+  border: 2px solid #333;
+  border-radius: 5px;
+  background-color: rgb(85, 39, 138);
+  padding: 7px;
+}
+
+.links i:hover {
+  box-shadow: 2px 4px 8px rgb(193, 139, 255);
+}
