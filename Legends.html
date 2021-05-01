@@ -5,32 +5,47 @@
 <head>
 
     <meta charset="UTF-8">
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- Font Awesome Kit -->
+
     <script src="https://kit.fontawesome.com/4f9cc66ded.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <!-- Google Fonts -->
-     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-        rel="stylesheet"/>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+
     <!-- MDB -->
-   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css"
-        rel="stylesheet"/>
+
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet"/>
+
         <link rel="stylesheet" href="/legends.css">
+
+        <script src="/legend.js"></script>
+
     <title> Legends </title>
+
 </head>
 
 <body>
 
     <div class="header">
 
-        <a href="/Chadwick-1.jpeg" class="logo" target="_self" rel="noopener noreferrer"> The Panther </a>
 
-        <div class="header-right">
-
-            <a href="#"> Bob Marley </a>
-            <a href="#"> Shakur </a>
-            <a href="#"> Big Poppa </a>
+        
+            <button onclick="myLegend1()"> The Panther </button>
+            <button onclick="myLegend2()"> Bob Marley </button>
+            <button onclick="myLegend3()"> Shakur </button>
+            <button onclick="myLegend4()"> Big Poppa </button>
 
         </div>
 
@@ -39,121 +54,260 @@
     <!-- Image Gallery -->
 
     <div class="wrapper">
+    
+        <!-- Displayed onclick -->
+        <!-- Chadwick -->
 
-        <div class="card">
+        <div id="slideshow">
 
-            <img src="/Chadwick-3.jpeg" alt="chadwick">
+            <div class="legend-details">
 
-            <div class="description">
+                <h1> Chadwick Boseman</h1>
+                <hr>
 
-                <h1>Da 5 Bloods</h1>
+                <p>
 
-                <p> <em> 2020 | 18+ | 2h 35m | Military Dramas </br> 
+                </p>
+                
+            </div>
 
-                    Four African American veterans return to Vietnam decades after the war to find their squad leader's remains — and a stash of buried gold. From Spike Lee.</br>
+                <h2>Gallery</h2>
 
-                        Starring:Delroy Lindo, Jonathan Majors, Clarke Petersm </p>
+            <div class="container-all">
 
-                </em>
+                <div class="container">
 
-                <button>
+                    <img src="/Chadwick-1.jpeg" alt="HB">
 
-                    <i class="fab fa-youtube fa-2x" style="color: green;">watch</i>
+                        <span class="title">Physical </span>
 
-                </button>
+                        <span class="text">30% of a hummingbird’s weight is in its pectoral muscles,broad chest muscles responsible for flying.</span>
+
+                </div>
+                <div class="container">
+
+                    <img src="/Chadwick-2.jpeg" alt="HB">
+
+                        <span class="title">Diet</span>
+
+                        <span class="text">They digest natural sucrose in 20 minutes with 97% efficiency for converting the sugar into energy.</span>
+
+                </div>
+                <div class="container">
+
+                    <img src="/Chadwick-3.jpeg" alt="HB">
+
+                        <span class="title">Species</span>
+
+                        <span class="text2">The average ruby-throated hummingbird weighs just 3 grams.  It would take more than 150 ruby-throated hummingbirds to weigh one pound.</span>
+
+                </div>
+                <div class="container">
+
+                    <img src="/Chadwick-4.jpeg" alt="HB">
+
+                        <span class="title">Migration</span>
+
+                        <span class="text3">A hummingbird’s wings beat between 50 and 200 flaps per second depending on the direction of flight, the purpose of their flight, and the surrounding air conditions.</span>
+
+                </div>
 
             </div>
 
         </div>
 
-    </div>
-    <div class="wrapper">
+        <!-- Bob Marley -->
 
-        <div class="card">
+        <div id="slideshow2" style="display: none;">
 
-            <img src="/Chadwick-2.jpeg" alt="chadwick"">
+            <div class="legend-details">
 
-            <div class="description">
+                <h1> Bob Marley </h1>
+                <hr>
 
-                <h1>Black Panther</h1>
+                <p>
 
-                <p> <em> 2018 | 18+ | 2h 14m | Action, Adventure, Sci-Fi </br> 
+                </p>
+                      
+                
+            </div>
 
-                    T'Challa, heir to the hidden but advanced kingdom of Wakanda, must step forward to lead his people into a new future and must confront a challenger from his country's past. </p>
- 
-                </em>
+            <h2>Gallery</h2>
 
-                <button>
+            <div class="container-all">
 
-                    <i class="fab fa-youtube fa-2x" style="color: green;">watch</i>
+                <div class="container">
 
-                </button>
+                <img src="/MB.jpeg" alt="HB">
+
+                <span class="title"> The Song </span>
+
+                <span class="text">The Mockingbird's Song - Male sing louder and more frequently than females, mostly when looking for a mate</span>
+
+                </div>
+                <div class="container">
+
+                <img src="/MB1.jpeg" alt="HB">
+
+                <span class="title">Behavior</span>
+
+                <span class="text">They are primarily diurnal, anti-social only mates. Females chase away female intruders, males likewise.</span>
+
+                </div>
+                <div class="container">
+
+                <img src="/MB2.jpeg" alt="HB">
+
+                <span class="title">Reproduction</span>
+
+                <span class="text2">Most are monogamous for life, females laying eggs an average of four eggs per clutch.</span>
+
+                </div>
+                <div class="container">
+
+                <img src="/MB3.jpeg" alt="HB">
+
+                <span class="title">Varied Repertoire </span>
+
+                <span class="text3">They continue learning songs throughout their entire lives. Sadly their beautiful songs nearly led to their downfall </span>
+
+                </div>
 
             </div>
 
         </div>
 
-    </div>
-    <div class="wrapper">
+        <!-- 2 Pac -->
 
-        <div class="card">
+        <div id="slideshow3" style="display: none;">
 
-            <img src="/Chadwick-4.jpeg" alt="chadwick">
+            <div class="legend-details">
 
-            <div class="description">
+                <h1> 2 Pac Shakur </h1>
+                <hr>
 
-                <h1>21 Bridges</h1>
+                <p>
 
-                <p> <em> 2019 | 18+ | 1h 39m | Action, Crime, Thriller </br> 
+                </p>
+            </div>
 
-                    An embattled NYPD detective is thrust into a citywide manhunt for a pair of cop killers after uncovering a massive and unexpected conspiracy.  </p>
+            <h2>Gallery</h2>
 
-                </em>
+            <div class="container-all">
 
-                <button>
+                <div class="container">
 
-                    <i class="fab fa-youtube fa-2x" style="color: green;">watch</i>
+                <img src="/CB.jpeg" alt="HB">
 
-                </button>
+                <span class="title">Regional Dialects</span>
+
+                <span class="text">Crows emit a number of other sounds. Each one sends out a different message.</br>
+                                   
+                </span>
+
+                </div>
+                <div class="container">
+
+                <img src="/CB1.jpeg" alt="HB">
+
+                <span class="title">Brains</span>
+
+                <span class="text">Crows are now considered to be among the world's most intelligent animals with an encephalization quotient equal to that of many non-human primates.</span>
+
+                </div>
+                <div class="container">
+
+                <img src="/CB2.jpeg" alt="HB">
+
+                <span class="title">Funerals</span>
+
+                <span class="text2">The sight of a dead crow tends to attract a mob of a hundred or more live ones. The live crows almost never touch the dead one, which rules scavenging out as a motive.</span>
+
+                </div>
+                <div class="container">
+
+                <img src="/CB3.jpeg" alt="HB">
+
+                <span class="title">Genus Family</span>
+
+                <span class="text3">Crows are cooperative breeders, they often stay close to the place where they were born and help raise and defend the area’s young chicks.</span>
+
+                </div>
 
             </div>
 
         </div>
 
-    </div>
-    <div class="wrapper">
+        <!-- Big Poppa -->
 
-        <div class="card">
+        <div id="slideshow4" style="display: none;">
 
-            <img src="/Chadwick-5.jpeg" alt="chadwick">
+            <div class="legend-details">
 
-            <div class="description">
+                <h1> Big Poppa </h1>
+                <hr>
+                <p>
 
-                <h1>Message from the King</h1>
-
-                <p> <em> 2016 | 18+ | 1h 42m | Action, Crime, Drama </br> 
-
-                 A mysterious outsider from South Africa, named Jacob King, arrives in Los Angeles to look for his missing younger sister.</p>
-
-                </em>
-
-                <button>
-
-                    <i class="fab fa-youtube fa-2x" style="color: green;">watch</i>
-
-                </button>
-
+                </p>
             </div>
 
+            <h2>Gallery</h2>
+
+            <div class="container-all">
+
+                <div class="container">
+
+                <img src="/EB.jpeg" alt="HB">
+
+                <span class="title">Altitude</span>
+
+                <span class="text">Eagles fly at high altitudes, not with low-flying birds like sparrows or other small birds.</span>
+
+                </div>
+                <div class="container">
+
+                <img src="/EB1.jpeg" alt="HB">
+
+                <span class="title">Vision</span>
+
+                <span class="text">Eagles have strong vision, with an ability to focus on objects up to three miles away.</span>
+
+                </div>
+                <div class="container">
+
+                <img src="/EB2.jpeg" alt="HB" style="height: 65%;">
+
+                <span class="title">Species</span>
+
+                <span class="text2">All eagles belong to the Accipitridae family, which are one of the 4 families that all bird species fall into.</span>
+
+                </div>
+                <div class="container">
+
+                <img src="/EB3.jpeg" alt="HB">
+
+                <span class="title">The Grip</span>
+
+                <span class="text3">They can usually lift prey that weighs up to 4lbs but the largest types of eagles can lift prey up to around 5lbs. </span>
+
+                </div>
+
+            </div>
+            
         </div>
 
     </div>
 
     <!-- MDB -->
+    
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"></script>
+
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>
