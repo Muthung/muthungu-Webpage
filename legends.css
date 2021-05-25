@@ -25,7 +25,7 @@ button {
   font-size: 21px;
   line-height: 25px;
   border-style: dashed;
-  border-radius: 7px;
+  border-radius: 27px;
 }
 
 .header button:hover {
@@ -74,6 +74,12 @@ button {
   padding: 7px;
 }
 
+.wrapper #slideshow .legend-details h1 {
+  font-family: 'Original Surfer', cursive;
+  color: rgb(0, 146, 139);
+  margin-top: 27px;
+}
+
 .container {
   width: 24%;
   display: inline-block;
@@ -113,6 +119,12 @@ button {
   font-family: 'Original Surfer', cursive;
   color: #fff;
   padding: 7px;
+}
+
+.wrapper #slideshow .legend-details h1 {
+  font-family: 'Original Surfer', cursive;
+  color: rgb(0, 146, 139);
+  margin-top: 27px;
 }
 
 .container {
@@ -156,6 +168,12 @@ button {
   padding: 7px;
 }
 
+.wrapper #slideshow .legend-details h1 {
+  font-family: 'Original Surfer', cursive;
+  color: rgb(0, 146, 139);
+  margin-top: 27px;
+}
+
 .container {
   width: 24%;
   display: inline-block;
@@ -177,6 +195,15 @@ button {
 }
 
 /* Big Image Gallery */
+/* Youtube link */
+
+.y-button {
+  color: rgb(56, 87, 60);
+  background-color: rgb(49, 10, 10);
+  padding: 21px;
+  padding-top: 14px;
+  border-radius: 49px;
+}
 
 /* Back Link */
 
