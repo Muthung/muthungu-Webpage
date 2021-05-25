@@ -74,12 +74,6 @@ button {
   padding: 7px;
 }
 
-.wrapper #slideshow .legend-details h1 {
-  font-family: 'Original Surfer', cursive;
-  color: rgb(0, 146, 139);
-  margin-top: 27px;
-}
-
 .container {
   width: 24%;
   display: inline-block;
@@ -119,12 +113,6 @@ button {
   font-family: 'Original Surfer', cursive;
   color: #fff;
   padding: 7px;
-}
-
-.wrapper #slideshow .legend-details h1 {
-  font-family: 'Original Surfer', cursive;
-  color: rgb(0, 146, 139);
-  margin-top: 27px;
 }
 
 .container {

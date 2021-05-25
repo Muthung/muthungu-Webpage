@@ -13,9 +13,6 @@ function myLegend1() {
     }
     else {
        a.style.display = "none";
-       b.style.display = "block";
-       c.style.display = "block";
-       d.style.display = "block";
     }
 }
 
@@ -34,9 +31,6 @@ function myLegend2() {
    }
    else {
       a.style.display = "none";
-      b.style.display = "block";
-      c.style.display = "block";
-      d.style.display = "block";
    }
 }
 
@@ -55,9 +49,6 @@ function myLegend3() {
    }
    else {
       a.style.display = "none";
-      b.style.display = "block";
-      c.style.display = "block";
-      d.style.display = "block";
    }
 }
 
@@ -76,9 +67,6 @@ function myLegend4() {
    }
    else {
       a.style.display = "none";
-      b.style.display = "block";
-      c.style.display = "block";
-      d.style.display = "block";
    }
 }
 
