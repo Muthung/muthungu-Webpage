@@ -53,6 +53,3 @@ It has 4 links on the homepage :
   Bootstrap
 
   MDN
-
-  Django
-
