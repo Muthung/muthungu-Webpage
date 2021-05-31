@@ -8,7 +8,7 @@ It has 4 links on the homepage :
    
    A description of Programmer.
 
-  Legends
+  # Legends
 
    _Chadwick Boseman
 
@@ -43,7 +43,7 @@ It has 4 links on the homepage :
    _Crow
 
    _Eagle
-   
+
 # Frameworks :
 
   JQuery
