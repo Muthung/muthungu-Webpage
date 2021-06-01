@@ -2,9 +2,14 @@
 
 I have created a HTML, CSS and Javascript Website.
 
+# Setup / Installation 
+
+Clone this repository into your computer,
+Open the " index.html " file in your browser.
+
 It has 4 links on the homepage :
 
-  # Profile,
+  # Profile
    
    A description of Programmer.
 
