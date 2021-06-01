@@ -1,4 +1,4 @@
-# A responsive personal website
+# A Responsive Personal Website
 
 I have created a HTML, CSS and Javascript Website.
 
