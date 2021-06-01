@@ -4,12 +4,12 @@ I have created a HTML, CSS and Javascript Website.
 
 The main page " index.html " has 4 links :
 
-Right 
      Profile
+     
      Legends
      
-Left 
      Albums
+     
      Birds
      
 
