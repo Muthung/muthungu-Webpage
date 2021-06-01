@@ -15,39 +15,39 @@ It has 4 links on the homepage :
 
   # Legends
 
-   _Chadwick Boseman
+   a. Chadwick Boseman
 
-   _Bob Marley
+   b. Bob Marley
 
-   _Tupac Shakur
+   c. Tupac Shakur
 
-   _Big Poppa
+   d. Big Poppa
 
   # Albums
 
-   _Nas
+   e. Nas
 
-   _Chronixx
+   f. Chronixx
 
-   _Jay-Z
+   g. Jay-Z
 
-   _Nyashinski
+   h. Nyashinski
 
-   _Kendrick Lamar
+   i. Kendrick Lamar
 
-   _Protoje
+   j. Protoje
 
-   _Eminem
+   k. Eminem
 
   # Birds
 
-   _Humming Bird
+   l. Humming Bird
 
-   _Mocking Bird
+   m. Mocking Bird
 
-   _Crow
+   n. Crow
 
-   _Eagle
+   o. Eagle
 
 # Frameworks :
 
