@@ -77,13 +77,7 @@ The bird breeds i've encountered during my creation of this project :
 
 # Frameworks :
 
-     JQuery
 
      Vs Code
 
      Bootstrap
-
-     MDN
-     
-     Google font api
- 
