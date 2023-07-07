@@ -4,92 +4,69 @@
 <head>
 
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Font Awesome Kit -->
+    <!-- Font Awesome-->
     <script src="https://kit.fontawesome.com/4f9cc66ded.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Oi&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
     <!-- MDB -->
-   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" type="text/css" href="./index.css">
 
     <title> Portfolio </title>
 </head>
 
 <body>
 
-    <!-- Name -->
-    <div class="header">
-        <i class="fab fa-mailchimp fa-5x" style="color: rgb(124, 84, 23);"></i>
-    </div>
-
       <!-- Navbar Links -->
-    <div class="topNav">
-    
-         <!-- Left-align -->
-        <div class="topNav-active">
-            <a href="./profile/Profile.html"> Profile </a>
-            <a href="./legends/Legends.html"> Legends </a>
+    <nav class="navbar">
+        <div class="topNav">
+            <a href="./profile/Profile.html" class="left-link">Profile</a>
+            <a href="./birds/Birds.html" class="left-link">Birds</a>
+            <a href="./albums/Albums.html" class="right-link">Albums</a>
+            <a href="./legends/Legends.html" class="right-link">Legends</a>
         </div>
-
-         <!-- Centered-align -->
-        <h1 class="topNav-centered" style="color: green;"> Front End Developer </h1>
-
-         <!-- Right-align -->
-        <div class="topNav-right">
-            <a href="./albums/Albums.html"> Albums </a>
-            <a href="./birds/Birds.html"> Birds </a>
-        </div>
-     </div>
+    </nav>
    
-     <!-- Portfolio Gallery Grid -->
-        <div class="container-fluid">
-            <h1> AL-KEB-U-LAN </h1>
-                <div class="row">
-                    <div class="col">
-                        <img class="img" src="./Toon.jpg" alt="Panther">
-                            <p style="margin-top: 7px;">
-                                <i class="fas fa-paw fa-2x" style="color: green;"></i>  Panther (legendary creature), a creature usually depicted as resembling a large cat with a multi-coloured hide 
-                            </p>
-                    </div>
-                </div>
+     <!-- Portfolio Grid -->
+
+    <div class="container">
+        <div class="col">
+            <div class="image-container">
+                <img src="./Toon.jpg" alt="" srcset="" class="img">
+            </div>
+            <div class="paragraph">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, eveniet. Quod quisquam inventore molestias sit nihil. Labore, fugiat qui? Officia maxime sint, deserunt eligendi nesciunt nisi id blanditiis atque consequatur?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, nesciunt ipsam consectetur sapiente ad sint corporis nulla inventore eligendi enim laudantium in odio, est exercitationem! Itaque doloremque tempore repudiandae dolore!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, nulla culpa! At vitae nisi exercitationem ipsa eligendi! Delectus accusantium doloremque maxime numquam excepturi nulla ex, animi aspernatur odio vel fuga?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, dolorum rem incidunt consequatur cum architecto sapiente in tempore magni necessitatibus quae, ut, quasi voluptatem consectetur! Expedita iusto hic iure aperiam?
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, eveniet. Quod quisquam inventore molestias sit nihil. Labore, fugiat qui? Officia maxime sint, deserunt eligendi nesciunt nisi id blanditiis atque consequatur?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, nesciunt ipsam consectetur sapiente ad sint corporis nulla inventore eligendi enim laudantium in odio, est exercitationem! Itaque doloremque tempore repudiandae dolore!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, nulla culpa! At vitae nisi exercitationem ipsa eligendi! Delectus accusantium doloremque maxime numquam excepturi nulla ex, animi aspernatur odio vel fuga?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, dolorum rem incidunt consequatur cum architecto sapiente in tempore magni necessitatibus quae, ut, quasi voluptatem consectetur! Expedita iusto hic iure aperiam?
+                </p>
+                
+            </div>
+        </div>
+        <div class="col-2">
+            <div class="socials">
+                <a href="#" class="social-link">Twitter</a>
+                <a href="#" class="social-link">GitHub</a>
+                <a href="#" class="social-link">LinkedIn</a>
+            </div>
+            <div class="quote">
+                <p><span class="quote-text">Death is a mirror in which the entire meaning of life is reflected.</span><span class="quote-author">~ Sogyal Rinpoche</span></p>
+                <p><span class="quote-text">Engineers are the only men who don't know how to change social status into mating opportunity.</span><span class="quote-author">~ Jordan B. Peterson</span></p>
+            </div>
         </div>
 
-    <footer class="footer position: fixed-bottom">
-        <div class="item-social">
-            <a href="https://www.linkedin.com/" class="fb-ic" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-linkedin fa-2x"></i>
-            </a>
-            <a href="https://www.twitter.com/" class="tw-ic" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-twitter fa-2x"></i>
-            </a>
-            <a href="https://www.github.com/" class="ig-ic" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-github fa-2x"></i>
-            </a>
-        </div>
-
-        <div class="footer-copyright">
-            <a href="https://www.gmail.com/" target="_blank" rel="noopener noreferrer"> 
-                <span> muthunguclintn@gmail.com </span>
-            </a>
-        </div>
-    </footer> 
-
-     <!-- MDB -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"></script>
-
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:muthunguclintn@gmail.com" class="email-tag">&copy; muthunguclintn@gmail.com</a>
+        </footer>
+    </div>
+ 
 </body>
 </html>
