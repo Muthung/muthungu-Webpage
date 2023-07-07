@@ -80,16 +80,24 @@ body {
     background-color: #000;
 }
 
+.heading {
+    font-family: 'Playfair Display', serif;
+    font-size: larger;
+    text-decoration: underline;
+}
+
 .paragraph {
     flex-grow: 1;
 }
 
 .paragraph p:nth-child(1) {
-    padding: 5rem 4rem;
+    padding: 1.5rem 1rem;
+    line-height: 1.8;
 }
 
 .paragraph p:nth-child(2) {
-    padding: 2.5rem 2rem;
+    padding: 1.5rem 1rem;
+    line-height: 1.8;
 }
 
 .col-2 {
@@ -173,7 +181,7 @@ body {
     border-right: 1px solid #000;
     border-radius: 7px;
     width: 100%;
-    height: 7rem;
+    height: 6.5rem;
     padding: 10px 0;
     background-color: #ffffff;
 }
@@ -182,7 +190,7 @@ body {
     color: #000;
     text-decoration: none;
     position: relative;
-    margin-top: 5.5rem;
+    margin-top: 4rem;
     transition: border-top-color 0.5s ease;
 }
 
