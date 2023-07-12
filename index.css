@@ -19,6 +19,7 @@ body {
     background-color: white;
     border: 0.6px solid black;
     border-radius: 7px;
+    z-index: 100;
 }
 
 .topNav{
@@ -46,6 +47,7 @@ body {
     margin-left: 10px;
 }
 
+
 /** Portfolio Gallery Grid Styles **/
 
 .container {
@@ -68,17 +70,10 @@ body {
     margin-right: 20px;
     position: relative;
     padding: 3rem;
+    border-right: none;
+    z-index: 1;
 }
 
-.image-container::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: -1px;
-    height: 100%;
-    width: 1px;
-    background-color: #000;
-}
 
 .heading {
     font-family: 'Playfair Display', serif;
@@ -99,6 +94,8 @@ body {
     padding: 1.5rem 1rem;
     line-height: 1.8;
 }
+
+/*** Column 2 Styling ***/
 
 .col-2 {
     display: flex;
@@ -208,4 +205,21 @@ body {
 
 .email-tag:hover::before {
     opacity: 1;
+}
+
+/*** Media Queries ***/
+
+@media only screen and (max-width: 768px) {
+    .col {
+        display: block;
+    }
+
+    .img {
+        max-width: 400px;
+        max-height: 380px;
+    }
+
+    .paragraph {
+        letter-spacing: 1.5px;
+    }
 }
