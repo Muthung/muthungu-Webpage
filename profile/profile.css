@@ -111,6 +111,7 @@ body {
   margin: 4px;
 }
 
+/*** Media Queries ***/
 
 @media only screen and (max-width: 768px) {
   .title {
@@ -128,7 +129,6 @@ body {
   .about,
   .education {
     width: 100%;
-    padding: 20px;
     background-color: lightgreen;
   }
 
@@ -145,7 +145,6 @@ body {
   .profession,
   .experience {
     width: 100%;
-    padding: 20px;
     background-color: lightgreen;
   }
   
