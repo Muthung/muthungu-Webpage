@@ -110,3 +110,76 @@ body {
   z-index: 1;
   margin: 4px;
 }
+
+
+@media only screen and (max-width: 768px) {
+  .title {
+    display: none;
+  }
+
+  h2 {
+    text-decoration: underline;
+  }
+
+  .personal-info {
+    display: block;
+  }
+
+  .about,
+  .education {
+    width: 100%;
+    padding: 20px;
+    background-color: lightgreen;
+  }
+
+  .education {
+    border-top: 1.5px solid #000;
+    border-left: none
+  }
+
+  .more-details {
+    display: block;
+    justify-content: space-between;
+  }
+  
+  .profession,
+  .experience {
+    width: 100%;
+    padding: 20px;
+    background-color: lightgreen;
+  }
+  
+  .profession {
+    border-top: 1px solid #000;
+    border-left: none;
+  }
+  
+  .experience {
+    border-top: 1px solid #000;
+  }
+  
+  .books {
+    display: block;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+    border-left: none;
+    padding-top: 4rem;
+    padding-bottom: 5.5rem;
+  }
+
+  .book {
+    width: 100%;
+    padding: 10px;
+    background-color: lightgreen;
+    position: relative;
+  }
+
+  .book h3:hover {
+    cursor: pointer;
+  }
+
+  .quote {
+    padding-bottom: 30px;
+  } 
+
+}
